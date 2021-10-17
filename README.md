@@ -1,10 +1,5 @@
 # CSP_Deep_EEG
-This source code is implemented using keras library based on "Automatic ocular artifacts removal in EEG using deep learning" paper just for academics purposes, though a complete match with this paper is not guaranteed.
-
-title = {Automatic ocular artifacts removal in EEG using deep learning},
-doi = {https://doi.org/10.1016/j.bspc.2018.02.021},
-url = {https://www.sciencedirect.com/science/article/pii/S1746809418300521},
-
+This source code is implemented using keras library based on "Automatic ocular artifacts removal in EEG using deep learning" {https://www.sciencedirect.com/science/article/pii/S1746809418300521} paper just for research purposes, though a complete match with the paper is not guaranteed at all.
 
 This project contains:
 - Common Spatial Pattern for EEG Feature Extraction
