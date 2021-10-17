@@ -7,9 +7,9 @@ This project contains:
 - Support Vector Machine for EEG Classification
 
 Dependencies:
-sudo pip install keras
-sudo pip install tensorflow
-sudo pip install sklearn
-sudo pip install matplotlib
-sudo pip install mne
-sudo pip install IPython
+- sudo pip install keras
+- sudo pip install tensorflow
+- sudo pip install sklearn
+- sudo pip install matplotlib
+- sudo pip install mne
+- sudo pip install IPython
