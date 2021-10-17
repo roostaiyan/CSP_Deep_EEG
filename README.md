@@ -5,3 +5,11 @@ This project contains:
 - Common Spatial Pattern for EEG Feature Extraction
 - using Deep Stacked Sparse Autoencoders (Keras) for EEG Denoising
 - Support Vector Machine for EEG Classification
+
+Dependencies:
+sudo pip install keras
+sudo pip install tensorflow
+sudo pip install sklearn
+sudo pip install matplotlib
+sudo pip install mne
+sudo pip install IPython
