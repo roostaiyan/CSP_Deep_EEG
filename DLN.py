@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-'''	Loads the dataset 2a of the BCI Competition IV
-available on http://bnci-horizon-2020.eu/database/data-sets
+'''	
+Deep Stacked Autoencoders
 '''
 
 import numpy as np
