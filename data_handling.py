@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-'''	Loads the dataset 1 of the BCI Competition IV
+'''	
+Loads the dataset 1 of the BCI Competition IV
 available on http://www.bbci.de/competition/iv/#datasets
 '''
 
