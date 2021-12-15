@@ -176,7 +176,7 @@ class  Dataset:
             EEGs_nrm.shape = (EEGs_nrm.shape[1])
         return EEGs_nrm
 
-    def anti_normalize(self, EEGs_nrm: np.array, EEGs: np.array) -> np.array:
+    def de_normalize(self, EEGs_nrm: np.array, EEGs: np.array) -> np.array:
         if(EEGs.shape.__len__()==1):
             EEGs.shape = (1,EEGs.shape[0])
         num_segments = EEGs.shape[0]
@@ -216,7 +216,7 @@ class  Dataset:
             EEGs_nrm.shape = (EEGs_nrm.shape[1])
         return EEGs_nrm
 
-    def anti_power_normalize(self, EEGs_nrm: np.array, EEGs: np.array) -> np.array:
+    def de_power_normalize(self, EEGs_nrm: np.array, EEGs: np.array) -> np.array:
         if(EEGs.shape.__len__()==1):
             EEGs.shape = (1,EEGs.shape[0])
         num_segments = EEGs.shape[0]
@@ -244,7 +244,7 @@ class  Dataset:
         return EEGs_std
 
 
-    def anti_standardize(self, EEGs_otp: np.array, EEGs_ctn:np.array) -> np.array:
+    def de_standardize(self, EEGs_otp: np.array, EEGs_ctn:np.array) -> np.array:
         if(EEGs_otp.shape.__len__()==1):
             EEGs_otp.shape = (1,EEGs_otp.shape[0])
         num_segments = EEGs_otp.shape[0]

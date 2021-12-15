@@ -159,7 +159,7 @@ class DLN_Denoising:
         # Take data_test_DLN as EEGs_ctn
         EEGs_std = self.dataset.standardize(EEGs_cnt)
         EEGs_otp = self.stacked_AEs.predict(EEGs_std)
-        EEGs_crt = self.dataset.anti_standardize(EEGs_otp, EEGs_cnt)
+        EEGs_crt = self.dataset.de_standardize(EEGs_otp, EEGs_cnt)
         return EEGs_crt
 
     def predict(self, EEGs_inp: np.array) -> np.array:

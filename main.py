@@ -81,7 +81,7 @@ class DLN_CSP_SVM_Model:
         EEGs_NOE = 0.1 * self.dataset.data_test_DLN  # To convert it to uV values, use cnt= 0.1*double(cnt); http://bbci.de/competition/iv/desc_1.html
         EEGs_inp = self.dataset.normalize(EEGs_NOE)
         EEGs_otp = deep_model.predict(EEGs_inp)
-        EEGs_crt = self.dataset.anti_normalize(EEGs_otp, EEGs_NOE)
+        EEGs_crt = self.dataset.de_normalize(EEGs_otp, EEGs_NOE)
         rmse = calc_rmse(EEGs_crt, EEGs_NOE)
         print('RMSE of DLN for Subject ' + str(self.subject) + ' = ' + str(rmse))
         # Generate Figure. 9
