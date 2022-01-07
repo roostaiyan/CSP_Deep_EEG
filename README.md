@@ -13,4 +13,3 @@ Dependencies:
 - sudo pip install sklearn
 - sudo pip install matplotlib
 - sudo pip install mne
-- sudo pip install IPython
